@@ -21,5 +21,17 @@
         "type": "milkshake-ice-cream",
         "ingredients": ["Strawberry Syrup", "Sprinkles", "Vanilla Base", "Chocolate Syrup"],
         "image": "https://gurjot06.github.io/Lab-4/images/strawberry-sprinkle.svg"
+    }, {
+        "name": "M&M's",
+        "calories": 250,
+        "type": "milkshake-type ice-cream",
+        "ingredients": ["Maple Syrup", "M&M's chunks", "Chocolate Base"],
+        "image": "https://gurjot06.github.io/Lab-4/images/ice-cream-xtra1.svg"
+    }, {
+        "name": "Cookies & Cream",
+        "calories": 250,
+        "type": "milkshake-type ice-cream",
+        "ingredients": ["Cookie Cream", "Cookie chunks", "Condensed Milk"],
+        "image": "https://gurjot06.github.io/Lab-4/images/ice-cream-xtra2.svg"
     }]
 }
