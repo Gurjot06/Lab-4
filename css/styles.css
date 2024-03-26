@@ -23,9 +23,10 @@ header p {
 
 /* section styles */
 section {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    /* justify-content: space-between; */
     margin-bottom: 5rem;
+	grid-template-columns: repeat(5,20%);
 }
 section article {
     border: 1px solid black;
