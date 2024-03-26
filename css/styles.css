@@ -24,24 +24,36 @@ header p {
 /* section styles */
 section {
     display: grid;
-    /* justify-content: space-between; */
+	grid-template-columns: repeat(3,33%);
     margin-bottom: 5rem;
-	grid-template-columns: repeat(5,20%);
+	justify-content: center;
 }
 section article {
-    border: 1px solid black;
+	border: 1px solid black;
     box-shadow: 0 2px 14px grey;
-    padding: 2.5%;
-    width: 25%;
+	border-radius: 20px;
+    padding: 2%;
+    width: 90%;
+	margin: 2%;
     margin-bottom: 20px; /* Added margin to create space between flavors */
+	transition: ease-in-out .2s;
+}
+section article:hover {
+	filter: drop-shadow(0 0 0.05rem #0e0e0e);
+	transition: ease-out .2s;
+}
+article h2 {
+	text-align: center;
 }
 article img {
     display: block;
     height: 150px;
     width: 90px;
+	margin-left: 30%;
 }
 section p {
     margin: 5px 0;
+	text-align: center;
 }
 
 section ul {
